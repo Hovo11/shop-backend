@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 
@@ -14,20 +15,22 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth:api', ['except' => ['login']]);
+        $this->middleware('auth:api', ['except' => ['login','log']]);
     }
 
     /**
      * Get a JWT via given credentials.
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return string
      */
-    public function log(){
-        dd("asdasdasd");
+    public function log($id){
+//           $user=User::find($id);
+//            return $user;
+        return $id.name;
+
     }
     public function login()
     {
-        dd("samo");
         $credentials = request(['email', 'password']);
 
         if (! $token = auth()->attempt($credentials)) {
