@@ -26,6 +26,7 @@ Route::group([
     Route::post('refresh', [AuthController::class,"refresh"]);
     Route::post('me',  [AuthController::class,"me"]);
     Route::post("miban/{id}",[AuthController::class,"log"]);
+    Route::post("signUp",[AuthController::class,"signUp"]);
 
 });
 
