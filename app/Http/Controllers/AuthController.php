@@ -49,7 +49,7 @@ class AuthController extends Controller
             'age'=>'numeric|required',
             'email' => 'required|email:rfc,dns|unique:users',
             'password' =>'required|min:8|string',
-            'confirm_password' =>'required|same:password',
+          //  'confirm_password' =>'required|same:password',
         ];
 
         $validator = Validator::make($request->all(), $rules);

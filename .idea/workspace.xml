@@ -22,8 +22,9 @@
     <list default="true" id="0df236a2-d765-4c0d-974e-bc62fb3a422c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Announcment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Announcment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_12_085432_create_announcements_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_12_085432_create_announcements_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/AnnouncmentSeederTable.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,6 +189,8 @@
       <workItem from="1608020803444" duration="45000" />
       <workItem from="1608022043356" duration="2828000" />
       <workItem from="1608041156197" duration="6889000" />
+      <workItem from="1608213809650" duration="2311000" />
+      <workItem from="1608376729299" duration="7538000" />
     </task>
     <servers />
   </component>
@@ -207,13 +210,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608043807481">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608380528117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608043807481" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608380528117" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608042666384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608042666384" />
+    <state x="441" y="87" key="NewPhpClassDialog" timestamp="1608380085045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1608380085045" />
   </component>
 </project>

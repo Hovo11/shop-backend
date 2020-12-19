@@ -21,6 +21,7 @@ class CreateAnnouncementsTable extends Migration
             $table->string('description')->nullable();
             $table->integer('salary')->default(0);
             $table->string('deadline')->nullable();
+            $table->timestamps();
 
 
         });
